@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorPrimaryDarkOpacity">#c500574b</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="red">#ff0000</color>
+    <color name="orange">#ff6200</color>
+    <color name="yellow">#ffe600</color>
+    <color name="green">#0ad100</color>
+    <color name="blue">#0000d2</color>
+    <color name="purple">#7000c1</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="secondActivityCard">#cc665151</color>
+    <color name="secondActivityCard2">#cc765e5e</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="gray">#646464</color>
+    <color name="lightGreen">#9cff9a</color>
+</resources>

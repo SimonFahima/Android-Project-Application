@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">HOUSE HUNTER</string>
+    <string name="house_finder">HOUSE FINDER</string>
+    <string name="house_hunter">HOUSE HUNTER</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="welcome_to_house_hunter">Welcome to HOUSE HUNTER!</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign up</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="age">Age:</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="email">Email:</string>
+    <string name="i_accept_the_terms_and_services">I accept the Terms and Services</string>
+    <string name="confirm_password">Confirm Password:</string>
+
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="menu">Menu</string>
+    <string name="posted_by">Posted by:</string>
+    <string name="show_me">SHOW ME</string>
+    <string name="add_photo">ADD PHOTO</string>
+
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="properties">Properties</string>
+    <string name="add_property">Add Property</string>
+    <string name="reviews">Reviews</string>
+    <string name="my_account">My Account</string>
+    <string name="logout">Logout</string>
+    <string name="address">Address:</string>
+    <string name="square_meters">Square Meters:</string>
+    <string name="amount_of_bedrooms">Amount Of Bedrooms:</string>
+    <string name="price_of_property">Price Of Property:</string>
+    <string name="city">City:</string>
+    <string name="state">State:</string>
+    <string name="simon">Simon</string>
+    <string name="or_make_sure_server_is_running">or make sure server is running.</string>
+    <string name="please_check_internet_connection">Please check internet connection</string>
+    <string name="no_server_connection_or_no_internet_connection_found_404">no server connection or no internet connection found 404.</string>
+    <string name="got_it">GOT IT!</string>
+</resources>

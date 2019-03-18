@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="176dp">
+        <include layout="@layout/nav_header_main"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/shadow_border">
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="56dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_to_house_hunter"
+            android:textSize="20sp"
+            android:textAlignment="center"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="70dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="55dp"
+                android:orientation="vertical">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="@string/login"
+                    android:id="@+id/btnLogin"
+                    android:tag="login"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:onClick="btnClickedLoginOrSignup"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    app:layout_constraintTop_toBottomOf="@id/btnLogin"
+                    android:background="@drawable/shadow_border_btn">
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="55dp"
+                android:orientation="vertical">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="@string/sign_up"
+                    android:id="@+id/btnSignUp"
+                    android:tag="signup"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:onClick="btnClickedLoginOrSignup"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    app:layout_constraintTop_toBottomOf="@id/btnSignUp"
+                    android:background="@drawable/shadow_border_btn">
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="80dp"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="@string/no_server_connection_or_no_internet_connection_found_404"
+        android:textColor="@color/red"
+        android:textAlignment="center"
+        android:id="@+id/txtNoServerConnection1"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="@string/please_check_internet_connection"
+        android:textColor="@color/red"
+        android:textAlignment="center"
+        android:id="@+id/txtNoServerConnection2"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="@string/or_make_sure_server_is_running"
+        android:textColor="@color/red"
+        android:textAlignment="center"
+        android:id="@+id/txtNoServerConnection3"
+        android:visibility="invisible"/>
+
+
+
+
+
+
+
+</LinearLayout>
